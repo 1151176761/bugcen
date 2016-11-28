@@ -8,7 +8,7 @@
  * Main module of the application.
  */
 angular
-  .module('xiangmuApp', ["ui.router","ngCookies"]).config(["$stateProvider","$urlRouterProvider",function ($stateProvider,$urlRouterProvider){
+  .module('xiangmuApp', ["ui.router","ngCookies","chart.js"]).config(["$stateProvider","$urlRouterProvider",function ($stateProvider,$urlRouterProvider){
     $stateProvider.state("daohang",{
       url:"/daohang",
       templateUrl: "views/daohang.html",
